@@ -1,0 +1,10 @@
+// https://code.visualstudio.com/docs/nodejs/nodejs-tutorial 
+
+
+CD <DIR>
+express <appName>
+cd <appName>
+npm install
+
+// Note that Jade is now pug, so install that, remove Jade
+// Then rename anything referring to Jade to pug (inc file extensions)
