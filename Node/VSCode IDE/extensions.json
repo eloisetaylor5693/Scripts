@@ -21,13 +21,14 @@
 		"Zignd.html-css-class-completion",
 				
 		//general IDE tools
-		"dbankier.vscode-instant-markdown",
 		"eamodio.gitlens",
 		"HookyQR.beautify",
 		"pflannery.vscode-versionlens",
 		"formulahendry.code-runner",
 		"CoenraadS.bracket-pair-colorizer",
 		"christian-kohler.path-intellisense",
-		"felipecaputo.git-project-manager"
+		"felipecaputo.git-project-manager",
+		"DavidAnson.vscode-markdownlint",
+		"emilast.logfilehighlighter"
 	]
 }
