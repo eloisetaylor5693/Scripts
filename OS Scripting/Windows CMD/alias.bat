@@ -22,10 +22,9 @@ DOSKEY h=DOSKEY /HISTORY
 REM NPM Aliases
 DOSKEY nnt=npm run test -s
 DOSKEY nnl=npm run lint -s
-DOSKEY nnbp=npm run build:prod -s
 DOSKEY nnb=npm run build -s
-DOSKEY nnb4=npm run b4 -s
 DOSKEY nnw=npm run watch -s
+DOSKEY npm=npm -s $*
 
 
 DOSKEY alias=if ".$*." == ".." ( DOSKEY /MACROS ) else ( DOSKEY $* )
