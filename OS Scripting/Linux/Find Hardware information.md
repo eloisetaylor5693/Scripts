@@ -17,7 +17,7 @@ Source: <https://www.cyberciti.biz/faq/linux-command-to-find-the-system-configur
 
 ## PCI Devices
 
-`LSPCI`
+`lspci`
 
 ## USB Devices
 
