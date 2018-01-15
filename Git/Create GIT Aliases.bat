@@ -21,11 +21,9 @@ git config --global alias.st status
 
 git config --global alias.br branch 
 
-git config --global alias.f fetch 
+git config --global alias.f "fetch --all --tags --progress"  
 
-git config --global alias.fa "fetch --all" 
-
-git config --global alias.fdr "fetch --dry-run" 
+git config --global alias.fdr "fetch --dry-run --progress" 
 
 git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short" 
 
