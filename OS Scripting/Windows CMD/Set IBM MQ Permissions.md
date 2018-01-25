@@ -1,13 +1,13 @@
-# Configuring IBMQ for new user
+# Configuring IBM MQ for new user
 
 ## Steps
 
 1. Log onto MQ server.
 1. Go to:  Computer management > Local users and groups.
 1. Add your account the "mqm" group.
-1. Run script to refresh IBMQ Permissions (See below).
+1. Run script to refresh IBM MQ Permissions (See below).
 
-### Script to refresh IBMQ Permissions
+### Script to refresh IBM MQ Permissions
 
 *Run as administrator*
 
