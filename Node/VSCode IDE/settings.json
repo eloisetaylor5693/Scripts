@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite the default settings
+
+{
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\Sysnative\\cmd.exe",
+    "gitProjectManager.baseProjectsFolders": [
+        "C:\\Git_ET\\",
+        "C:\\Git_ET\\"
+    ],
+    "gitProjectManager.storeRepositoriesBetweenSessions": true,
+    "git.enableSmartCommit": true,
+    "gitProjectManager.ignoredFolders": ["node_modules"],
+    "files.associations": {
+        "*.log.*": "log",
+        "Log-*.txt":"log"
+    },
+    "tslint.run": "onSave",
+    "tslint.exclude": "*node_modules*"
+}
