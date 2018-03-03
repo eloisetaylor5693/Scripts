@@ -8,7 +8,6 @@
 		"formulahendry.code-runner",
 
 		//general IDE tools
-		"dbankier.vscode-instant-markdown",
 		"eamodio.gitlens",
 		"HookyQR.beautify",
 		"pflannery.vscode-versionlens",
