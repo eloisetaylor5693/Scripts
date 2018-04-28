@@ -13,6 +13,7 @@
 		"pflannery.vscode-versionlens",
 		"CoenraadS.bracket-pair-colorizer",
 		"christian-kohler.path-intellisense",
-		"felipecaputo.git-project-manager"
+		"felipecaputo.git-project-manager",
+		"ms-vscode.vs-keybindings"
 	]
 }
