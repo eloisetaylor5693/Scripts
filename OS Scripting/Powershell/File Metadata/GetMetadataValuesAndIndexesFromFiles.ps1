@@ -54,7 +54,7 @@ Function Get-FileMetaData
     KEYWORDS: Storage, Files, Metadata
     HSG: HSG-2-5-14
    .Link
-     Http://www.ScriptingGuys.com
+     http://www.ScriptingGuys.com
  #Requires -Version 2.0
  #>
  Param([string[]]$folder)
