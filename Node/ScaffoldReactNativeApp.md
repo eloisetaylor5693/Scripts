@@ -1,6 +1,6 @@
 # Scaffolding React Native App
 
-Instructions from the following sources: 
+Instructions from the following sources:
 - <https://www.skptricks.com/2018/06/installing-react-native-on-windows.html>
 - <https://www.npmjs.com/package/react-native-cli>
 
