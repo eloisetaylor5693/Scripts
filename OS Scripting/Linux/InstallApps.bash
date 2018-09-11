@@ -1,3 +1,4 @@
+sudo apt install ubuntu-drivers-common
 sudo apt-get update        # Fetches the list of available updates
 sudo apt-get upgrade       # Strictly upgrades the current packages
 sudo apt-get dist-upgrade  # Installs updates (new ones)
@@ -12,6 +13,11 @@ sudo apt-get install git
 ## https://nodejs.org/en/download/package-manager/
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
+sudo apt-get install -y npm
+
+# fix issue where linux can't find node, because it's named nodejs
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+
 
 # VS Code 
 ## https://code.visualstudio.com/docs/setup/linux
