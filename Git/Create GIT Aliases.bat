@@ -21,7 +21,7 @@ git config --global alias.st status
 
 git config --global alias.br branch 
 
-git config --global alias.f "fetch --all --tags --progress"  
+git config --global alias.f "!git fetch --all --tags --progress && git status "
 
 git config --global alias.fdr "fetch --dry-run --progress" 
 
