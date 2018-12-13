@@ -23,7 +23,7 @@ git config --global alias.br branch
 
 git config --global alias.f "!git fetch --all --tags --progress && git status "
 
-git config --global alias.cleanunstaged "!git reset --hard && git clean -dfx "
+git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
 
 git config --global alias.fdr "fetch --dry-run --progress" 
 
