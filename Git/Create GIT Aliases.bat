@@ -1,9 +1,9 @@
  
-ECHO Removing current global aliases 
+echo Removing current global aliases 
 
 git config --global --remove-section alias 
 
-ECHO Adding aliase 
+echo Adding aliase 
 
 git config --global alias.ad "add -A" 
 
@@ -21,6 +21,7 @@ git config --global alias.st status
 
 git config --global alias.br branch 
 
+echo Does not work for Linux! Use git config --global alias.f "fetch --all --tags" 
 git config --global alias.f "!git fetch --all --tags --progress && git status "
 
 git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
@@ -33,6 +34,6 @@ git config --global alias.type "cat-file -t"
 
 git config --global alias.dump "cat-file -p" 
 
-ECHO Configured global aliases 
+echo Configured global aliases 
 
 git config --get-regexp alias 
