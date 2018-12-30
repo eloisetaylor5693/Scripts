@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
 
 echo PS1 $PS1
