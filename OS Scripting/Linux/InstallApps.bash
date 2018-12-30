@@ -11,7 +11,7 @@ sudo apt-get install -y rkhunter
 sudo apt-get install -y chkrootkit
 sudo apt-get install -y git
 
-# Node
+echo Node
 ## https://nodejs.org/en/download/package-manager/
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
@@ -20,7 +20,7 @@ sudo apt-get install -y nodejs
 #sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 
-# VS Code 
+echo VS Code 
 ## https://code.visualstudio.com/docs/setup/linux
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo install -o root -g root -m 644 microsoft.gpg /etc/apt/trusted.gpg.d/
@@ -30,10 +30,17 @@ sudo apt-get install -y apt-transport-https
 sudo apt-get update
 sudo apt-get install -y code
 
-
+echo Image editing 
 sudo apt-get install -y deluge
 sudo apt-get install -y GIMP
 sudo apt-get install -y digiKam
+
+
+echo Python
+sudo apt-get install python3-pip
+sudo apt-get install idle3
+# Ubuntu 16.04 +
+sudo snap install [pycharm-professional|pycharm-community] --classic
 
 # Cleanup packages that are not required (reboot first)
 #sudo apt autoremove 
