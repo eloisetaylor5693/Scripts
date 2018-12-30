@@ -38,6 +38,7 @@ sudo apt-get install -y digiKam
 
 echo Python
 sudo apt-get install python3-pip
+sudo apt install python-pip
 sudo apt-get install idle3
 # Ubuntu 16.04 +
 sudo snap install [pycharm-professional|pycharm-community] --classic
