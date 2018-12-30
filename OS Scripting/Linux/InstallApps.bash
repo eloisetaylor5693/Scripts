@@ -31,5 +31,9 @@ sudo apt-get update
 sudo apt-get install -y code
 
 
+sudo apt-get install -y deluge
+sudo apt-get install -y GIMP
+sudo apt-get install -y digiKam
+
 # Cleanup packages that are not required (reboot first)
 #sudo apt autoremove 
