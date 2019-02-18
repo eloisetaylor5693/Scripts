@@ -45,6 +45,7 @@ choco install -y NugetPackageExplorer
 choco install -y postman
 choco install -y ProcExp Write-Host choco install -y sysinternals
 choco install -y royalts
+choco install -y devaudit
 
 Write-Host Installing VS Code and extensions
 choco install -y visualstudiocode
