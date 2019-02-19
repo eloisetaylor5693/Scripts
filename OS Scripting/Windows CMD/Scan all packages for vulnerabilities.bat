@@ -1,0 +1,1 @@
+for /d /r %i in (*.*) do E:\Downloads\DevAudit\devaudit.exe nuget .
