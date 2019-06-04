@@ -1,4 +1,4 @@
- 
+
 echo Removing current global aliases 
 
 git config --global --remove-section alias 
@@ -14,14 +14,15 @@ git config --global alias.plr "pull --rebase"
 git config --global alias.plf "pull --ff-only" 
 
 git config --global alias.co checkout 
+git config --global alias.com "co master"
 
-git config --global alias.ci commit 
+git config --global alias.ci "!git commit --no-verify -m"
+git config --global alias.civ "!git commit -m"
 
 git config --global alias.st status 
 
 git config --global alias.br branch 
 
-echo Does not work for Linux! Use git config --global alias.f "fetch --all --tags" 
 git config --global alias.f "!git fetch --all --tags --progress && git status "
 
 git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
@@ -36,4 +37,4 @@ git config --global alias.dump "cat-file -p"
 
 echo Configured global aliases 
 
-git config --get-regexp alias 
+git config --global --get-regexp alias 
