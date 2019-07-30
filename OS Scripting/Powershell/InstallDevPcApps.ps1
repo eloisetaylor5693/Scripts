@@ -70,5 +70,5 @@ choco install -y javaruntime
 choco install -y notepadplusplus --version 7.3.3 --force
 
 
-if (Test-PendingReboot) { Invoke-Reboot }
-choco install -y kdiff3
+Write-Host Installing node
+choco install nodejs
