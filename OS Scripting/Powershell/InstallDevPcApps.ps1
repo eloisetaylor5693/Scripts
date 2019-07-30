@@ -36,6 +36,11 @@ choco install -y resharper
 choco install -y dotpeek
 choco install -y teamcityaddin
 
+Write-host SQL Server DB Tools
+choco install -y azure-data-studio
+choco install -y sql-server-management-studio
+
+
 Write-Host Installing Other dev tools
 choco install -y fiddler
 choco install -y git
