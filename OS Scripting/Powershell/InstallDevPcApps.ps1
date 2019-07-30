@@ -24,8 +24,8 @@ function Test-PendingReboot
 
 if (Test-PendingReboot) { Invoke-Reboot }
 
-Write-Host Install Visual Studio 2017 Professional 
-choco install -y visualstudio2017Professional -InstallArguments WebTools
+Write-Host Install Visual Studio 2019 Professional 
+choco install -y visualstudio2019Professional -InstallArguments WebTools
 
 if (Test-PendingReboot) { Invoke-Reboot }
 
