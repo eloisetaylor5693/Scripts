@@ -40,12 +40,14 @@ Write-host SQL Server DB Tools
 choco install -y azure-data-studio
 choco install -y sql-server-management-studio
 
+Write-Host Installing Git Tools
+choco install -y git
+choco install -y git-credential-manager-for-windows
+choco install -y kdiff3
+choco install -y gitextensions
 
 Write-Host Installing Other dev tools
 choco install -y fiddler
-choco install -y git
-choco install -y git-credential-manager-for-windows
-choco install -y gitextensions
 choco install -y NugetPackageExplorer
 choco install -y postman
 choco install -y ProcExp Write-Host choco install -y sysinternals
