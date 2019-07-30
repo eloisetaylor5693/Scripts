@@ -71,6 +71,7 @@ choco install -y 7zip
 choco install -y adobereader
 choco install -y javaruntime
 choco install -y notepadplusplus
+choco install -y slack
 
 Write-Host Installing node
 choco install nodejs
