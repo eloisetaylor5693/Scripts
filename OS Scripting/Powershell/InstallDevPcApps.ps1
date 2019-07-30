@@ -67,8 +67,7 @@ Write-Host Installing Other essential tools
 choco install -y 7zip
 choco install -y adobereader
 choco install -y javaruntime
-choco install -y notepadplusplus --version 7.3.3 --force
-
+choco install -y notepadplusplus
 
 Write-Host Installing node
 choco install nodejs
