@@ -3,7 +3,7 @@ Write-Host
 Start-Sleep -s 10
 
 Write-Host "Search for apps you want at this url:  https://chocolatey.org/packages" -ForegroundColor Blue
-Start-Sleep -s 15
+Start-Sleep -s 10
 
 
 function Test-PendingReboot
