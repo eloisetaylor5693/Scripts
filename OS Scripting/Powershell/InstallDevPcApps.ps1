@@ -50,9 +50,10 @@ Write-Host Installing Other dev tools
 choco install -y fiddler
 choco install -y NugetPackageExplorer
 choco install -y postman
-choco install -y ProcExp Write-Host choco install -y sysinternals
+choco install -y sysinternals
 choco install -y royalts
 choco install -y devaudit
+choco install -y urlrewrite
 
 Write-Host Installing VS Code and extensions
 choco install -y visualstudiocode
