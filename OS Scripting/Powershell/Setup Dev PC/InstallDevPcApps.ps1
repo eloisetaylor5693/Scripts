@@ -37,7 +37,10 @@ choco install -y postman
 choco install -y sysinternals
 choco install -y royalts
 choco install -y devaudit
+
+Write-Host Installing IIS web tools
 choco install -y urlrewrite
+choco install -y webdeploy
 
 Write-Host Installing VS Code and extensions
 choco install -y visualstudiocode
