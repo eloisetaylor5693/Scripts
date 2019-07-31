@@ -57,5 +57,5 @@ choco install -y javaruntime
 choco install -y notepadplusplus
 choco install -y slack
 
-Write-Host Installing node
-choco install nodejs
+Write-Host Installing node version manager
+choco install -y nvm
