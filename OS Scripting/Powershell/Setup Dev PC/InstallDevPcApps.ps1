@@ -62,3 +62,5 @@ choco install -y slack
 
 Write-Host Installing node version manager
 choco install -y nvm
+refreshenv
+nvm install latest
