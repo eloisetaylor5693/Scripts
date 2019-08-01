@@ -31,12 +31,13 @@ choco install -y kdiff3
 choco install -y gitextensions
 
 Write-Host Installing Other dev tools
+choco install -y curl 
+choco install -y devaudit
 choco install -y fiddler
 choco install -y NugetPackageExplorer
 choco install -y postman
 choco install -y sysinternals
 choco install -y royalts
-choco install -y devaudit
 
 Write-Host Installing IIS web tools
 choco install -y urlrewrite
