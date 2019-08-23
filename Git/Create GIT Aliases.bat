@@ -23,7 +23,7 @@ git config --global alias.st status
 
 git config --global alias.br branch 
 
-git config --global alias.f "!git fetch --all --tags --progress && git status "
+git config --global alias.f "!git fetch --all --tags --progress --prune && git status "
 
 git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
 
@@ -33,7 +33,8 @@ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --grap
 
 git config --global alias.type "cat-file -t" 
 
-git config --global alias.dump "cat-file -p" 
+git config --global alias.dump "cat-file -p"
+
 
 echo Configured global aliases 
 
