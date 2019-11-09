@@ -32,7 +32,6 @@ git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
 
 git config --global alias.fdr "fetch --dry-run --progress" 
 
-git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short" 
 
 git config --global alias.type "cat-file -t" 
 
