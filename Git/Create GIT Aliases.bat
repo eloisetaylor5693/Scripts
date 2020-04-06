@@ -22,11 +22,10 @@ git config --global alias.mm "merge master"
 git config --global alias.ci "!git commit --no-verify -m"
 git config --global alias.civ "!git commit -m"
 
-git config --global alias.st status 
+git config --global alias.f "!git fetch --all --tags --progress --prune && git status "
+git config --global alias.st f 
 
 git config --global alias.br branch 
-
-git config --global alias.f "!git fetch --all --tags --progress --prune && git status "
 
 git config --global alias.undounstaged "!git reset --hard && git clean -dfx "
 
