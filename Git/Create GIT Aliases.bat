@@ -15,9 +15,9 @@ git config --global alias.plf "pull --ff-only"
 
 git config --global alias.co checkout 
 git config --global alias.cob "co -b"
-git config --global alias.com "co master"
+git config --global alias.com "co main"
 
-git config --global alias.mm "merge master"
+git config --global alias.mm "merge main"
 
 git config --global alias.ci "!git commit --no-verify -m"
 git config --global alias.civ "!git commit -m"
