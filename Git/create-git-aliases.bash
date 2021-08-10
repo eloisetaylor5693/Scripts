@@ -17,8 +17,11 @@ git config --global alias.plf "pull --ff-only"
 git config --global alias.co checkout 
 git config --global alias.cob "co -b"
 git config --global alias.com "co main"
+git config --global alias.comr "co master"
+git config --global alias.cost "co staging"
 
 git config --global alias.mm "merge main"
+git config --global alias.mmr "merge master"
 
 
 git config --global alias.f '!git fetch --all --tags --progress --prune; git status'
