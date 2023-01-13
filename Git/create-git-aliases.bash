@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+echo Auto setup remote branch on push
+git config --global --add push.default current
+git config --global --add push.autoSetupRemote true
+
 echo Removing current global aliases 
 
 git config --global --remove-section alias 
